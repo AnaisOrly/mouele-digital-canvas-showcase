@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Mail, User, Message } from 'lucide-react';
+import { Mail, User, Send } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 const Contact = () => {
@@ -147,7 +147,7 @@ const Contact = () => {
                 type="submit"
                 className="w-full bg-white text-black py-3 rounded-lg font-medium hover:bg-gray-200 transition-colors duration-200 flex items-center justify-center gap-2"
               >
-                <Message size={20} />
+                <Send size={20} />
                 Envoyer le message
               </button>
             </form>
