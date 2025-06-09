@@ -17,16 +17,14 @@ const About = () => {
             <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
               <p>
                 Passionnée par l'innovation et la gestion de projets, j'ai effectué une reconversion 
-                réussie vers le domaine digital après une solide expérience en électromécanique.
+                réussie vers le domaine digital après plusieurs années expérience dans le secteur de l'électromécanique.
               </p>
               <p>
-                Mon parcours unique me permet d'allier rigueur technique et créativité digitale 
-                pour mener à bien des projets complexes et innovants.
-              </p>
+                Mon parcours singulier me permet aujourd'hui d'allier rigueur technique et créativité digitale 
+                pour piloter des projets complexes, innovants et porteurs de sens.
               <p>
-                Actuellement impliquée dans des missions stratégiques, notamment au sein de la 
-                Commission électorale présidentielle 2025, je développe une expertise reconnue 
-                en gestion de projet et coordination d'équipes.
+                Curieuse, structurée et orientée résultats, je m’investis pleinement dans chaque mission.
+                pour créer de la valeur, mobiliser les équipes et garantir la réussite des projets que je porte.
               </p>
             </div>
           </div>
