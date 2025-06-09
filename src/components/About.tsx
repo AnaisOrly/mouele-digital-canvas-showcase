@@ -14,7 +14,7 @@ const About = () => {
               <div className="w-20 h-1 bg-blue-500"></div>
             </div>
             
-            <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
+            <div className="space-y-6 text-gray-300 text-lg leading-relaxed" >
               <p>
                 Passionnée par l'innovation et la gestion de projets, j'ai effectué une reconversion 
                 réussie vers le domaine digital après  une solide plusieurs années expérience dans le secteur  en de l'électromécanique.
@@ -22,9 +22,10 @@ const About = () => {
               <p>
                 Mon parcours singulier me permet aujourd'hui d'allier rigueur technique et créativité digitale 
                 pour piloter des projets complexes, innovants et porteurs de sens.
+              </p>
               <p>
                 Curieuse, structurée et orientée résultats, je m’investis pleinement dans chaque mission.
-                pour créer de la valeur, mobiliser les équipes et garantir la réussite des projets que je porte.
+                pour créer de la valeur, mobiliser les équipes et garantir la réussite des projets que je porte. 
               </p>
             </div>
           </div>
