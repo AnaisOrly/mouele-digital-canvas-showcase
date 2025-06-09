@@ -1,7 +1,7 @@
-
 import React, { useState } from 'react';
 import { Mail, User, Send } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -11,16 +11,33 @@ const Contact = () => {
   });
   const { toast } = useToast();
 
+  // Initialise EmailJS une fois
+  emailjs.init('dSr-3WK-HYJmkB9NT'); // Ta Public Key ici
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
-    // Simulation d'envoi
-    toast({
-      title: "Message envoyé !",
-      description: "Je vous répondrai dans les plus brefs délais.",
+
+    // Envoi du mail avec EmailJS
+    emailjs.send(
+      'service_hi534mj',       // Remplace par ton service ID EmailJS
+      'template_lk6ndzo',      // Remplace par ton template ID EmailJS
+      formData,            // Les données du formulaire
+      'dSr-3WK-HYJmkB9NT'  // Ta Public Key (optionnel si tu as déjà fait emailjs.init)
+    )
+    .then(() => {
+      toast({
+        title: "Message envoyé !",
+        description: "Je vous répondrai dans les plus brefs délais.",
+      });
+      setFormData({ name: '', email: '', message: '' });
+    })
+    .catch(() => {
+      toast({
+        title: "Erreur",
+        description: "Le message n'a pas pu être envoyé. Veuillez réessayer.",
+        variant: 'destructive',
+      });
     });
-    
-    setFormData({ name: '', email: '', message: '' });
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -31,6 +48,7 @@ const Contact = () => {
   };
 
   return (
+    // ... ton JSX formulaire ici, inchangé ...
     <section id="contact" className="py-20 bg-black">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">

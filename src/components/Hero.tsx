@@ -13,14 +13,14 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center relative z-10">
         <div className="space-y-8">
           <div className="space-y-4">
-            <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">
-              Orly Anaice
-              <span className="block text-2xl md:text-3xl font-light text-gray-300 mt-2">
-                Kengue Mouele
+            <h1 className="text-2xl md:text-3xl font-bold text-white leading-tight">
+               Orly Anaïce
+              <span className=" block text-2xl md:text-3xl font-bold text-white mt-2">
+                 KENGUE MOUELE
               </span>
             </h1>
-            <div className="text-xl md:text-2xl text-blue-400 font-medium">
-              Cheffe de projet digitale
+            <div className="text-xl md:text-2xl text-orange-400 font-medium mt-4">
+              Cheffe de projet
             </div>
             <div className="text-lg text-gray-400">
               Port-Gentil, Gabon
@@ -28,7 +28,7 @@ const Hero = () => {
           </div>
           
           <p className="text-xl md:text-2xl text-gray-300 font-light leading-relaxed">
-            "Transformer les idées en projets concrets."
+            Transformer les idées en projets concrets.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
@@ -39,13 +39,11 @@ const Hero = () => {
               <Mail size={20} />
               Me contacter
             </a>
-            <a
-              href="#about"
-              className="inline-flex items-center gap-2 border border-gray-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-white hover:text-black transition-all duration-200"
-            >
-              <User size={20} />
-              En savoir plus
-            </a>
+            <a href="CV.pdf" download 
+            className="inline-flex items-center gap-2 border border-gray-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-white hover:text-black transition-all duration-200">
+  <User size={20} />
+  Télécharger mon CV
+</a>
           </div>
         </div>
         

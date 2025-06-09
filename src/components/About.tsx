@@ -17,7 +17,7 @@ const About = () => {
             <div className="space-y-6 text-gray-300 text-lg leading-relaxed" >
               <p>
                 Passionnée par l'innovation et la gestion de projets, j'ai effectué une reconversion 
-                réussie vers le domaine digital après  une solide plusieurs années expérience dans le secteur  en de l'électromécanique.
+                réussie vers le domaine digital après  plusieurs années expérience dans le secteur de l'électromécanique.
               </p>
               <p>
                 Mon parcours singulier me permet aujourd'hui d'allier rigueur technique et créativité digitale 
@@ -33,8 +33,8 @@ const About = () => {
           <div className="grid grid-cols-2 gap-6">
             <div className="bg-black p-6 rounded-lg border border-gray-800">
               <h3 className="text-2xl font-bold text-white mb-2">Formation</h3>
-              <p className="text-gray-400">Électromécanique</p>
-              <p className="text-gray-400">Reconversion Digital</p>
+              <p className="text-gray-400">Gestion de projet</p>
+              <p className="text-gray-400"></p>
             </div>
             <div className="bg-black p-6 rounded-lg border border-gray-800">
               <h3 className="text-2xl font-bold text-white mb-2">Valeurs</h3>
@@ -44,8 +44,8 @@ const About = () => {
             </div>
             <div className="bg-black p-6 rounded-lg border border-gray-800 col-span-2">
               <h3 className="text-2xl font-bold text-white mb-2">Mission actuelle</h3>
-              <p className="text-gray-400">Commission électorale présidentielle 2025</p>
-              <p className="text-gray-400">Coordination et gestion de projets stratégiques</p>
+              <p className="text-gray-400">.</p>
+              <p className="text-gray-400"></p>
             </div>
           </div>
         </div>

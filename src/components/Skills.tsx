@@ -6,7 +6,7 @@ const Skills = () => {
     {
       title: "Gestion de projet",
       skills: [
-        { name: "Méthodologie Agile", level: 90 },
+        { name: "Méthodologie Agile", },
         { name: "Cycle en V", level: 85 },
         { name: "Coordination d'équipes", level: 88 },
         { name: "Planification", level: 92 }
@@ -15,18 +15,17 @@ const Skills = () => {
     {
       title: "Outils digitaux",
       skills: [
-        { name: "Trello", level: 95 },
-        { name: "Asana", level: 88 },
+        { name: "Trello", },
+        { name: "Asana",  },
         { name: "Microsoft Project", level: 80 },
-        { name: "Slack", level: 85 }
+        { name: "Slack",  }
       ]
     },
     {
       title: "Création & Design",
       skills: [
         { name: "Photoshop", level: 82 },
-        { name: "Figma", level: 78 },
-        { name: "UX/UI Design", level: 75 },
+       
         { name: "Canva", level: 90 }
       ]
     },
@@ -34,9 +33,8 @@ const Skills = () => {
       title: "Développement",
       skills: [
         { name: "HTML/CSS", level: 85 },
-        { name: "JavaScript", level: 70 },
-        { name: "Responsive Design", level: 80 },
-        { name: "Git", level: 75 }
+      
+        
       ]
     }
   ];
@@ -63,16 +61,9 @@ const Skills = () => {
                     <span className="text-gray-300 font-medium">
                       {skill.name}
                     </span>
-                    <span className="text-gray-400 text-sm">
-                      {skill.level}%
-                    </span>
+                    
                   </div>
-                  <div className="w-full bg-gray-800 rounded-full h-2">
-                    <div
-                      className="bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full transition-all duration-1000 ease-out"
-                      style={{ width: `${skill.level}%` }}
-                    ></div>
-                  </div>
+                  
                 </div>
               ))}
             </div>
