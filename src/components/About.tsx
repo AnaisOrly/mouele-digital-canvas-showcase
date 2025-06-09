@@ -17,7 +17,7 @@ const About = () => {
             <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
               <p>
                 Passionnée par l'innovation et la gestion de projets, j'ai effectué une reconversion 
-                réussie vers le domaine digital après plusieurs années expérience dans le secteur de l'électromécanique.
+                réussie vers le domaine digital après  une solide plusieurs années expérience dans le secteur  en de l'électromécanique.
               </p>
               <p>
                 Mon parcours singulier me permet aujourd'hui d'allier rigueur technique et créativité digitale 
