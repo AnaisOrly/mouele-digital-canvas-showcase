@@ -9,34 +9,33 @@ const Projects = () => {
       id: 1,
       title: "Plateforme de gestion électorale",
       category: "gestion",
-      description: "Coordination des processus numériques pour la Commission électorale",
+      description: "Pilotage du projet de refonte du site web d’une PME pour améliorer sa visibilité en ligne",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop",
-      technologies: ["Agile", "Trello", "Excel"]
+      technologies: ["Agile", "Asana", "Excel"]
     },
-    {
-      id: 2,
-      title: "Interface de suivi de projet",
-      category: "design",
-      description: "Maquette et conception d'une interface de gestion de projets",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-      technologies: ["Photoshop", "Figma", "UX/UI"]
-    },
-    {
-      id: 3,
-      title: "Automatisation électromécanique",
-      category: "technique",
-      description: "Projet d'optimisation de processus industriels",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop",
-      technologies: ["Cycle en V", "Documentation", "Analyse"]
-    },
-    {
-      id: 4,
-      title: "Site web responsive",
-      category: "web",
-      description: "Développement d'un site vitrine responsive",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=400&fit=crop",
-      technologies: ["HTML", "CSS", "JavaScript"]
-    }
+   // {
+     //category: "design",
+      //description: "Maquette et conception d'une interface de gestion de projets",
+      //image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
+      //technologies: ["Photoshop", "Figma", "UX/UI"]
+    //},
+
+   // {
+     // id: 3,
+     // title: "Automatisation électromécanique",
+     // category: "technique",
+     // description: "Projet d'optimisation de processus industriels",
+      //image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop",
+      //technologies: ["Cycle en V", "Documentation", "Analyse"]
+    //},
+    // {
+  //   id: 4,
+  //   title: "Site web responsive",
+  //   category: "web",
+  //   description: "Développement d'un site vitrine responsive",
+  //   image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=400&fit=crop",
+  //   technologies: ["HTML", "CSS", "JavaScript"]
+  // }
   ];
 
   const filters = ['tous', 'gestion', 'design', 'technique', 'web'];
