@@ -7,7 +7,7 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Plateforme de gestion électorale",
+      title: "refonte d'un site Web ",
       category: "gestion",
       description: "Pilotage du projet de refonte du site web d’une PME pour améliorer sa visibilité en ligne",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop",
